@@ -18,6 +18,7 @@ use Wexample\SymfonySignature\Enum\EnvelopeStatus;
 use Wexample\SymfonySignature\Enum\SignatureRefusal;
 use Wexample\SymfonySignature\Event\EnvelopeEvent;
 use Wexample\SymfonySignature\Exception\SignatureException;
+use Wexample\SymfonySignature\Interface\SignerAccountResolverInterface;
 
 /**
  * An envelope from its draft to its last signature:
@@ -39,6 +40,7 @@ class EnvelopeService
         private readonly EnvelopeManifestService $manifests,
         private readonly TimestampAuthorityClient $timestamps,
         private readonly SignatureKeyService $keys,
+        private readonly ?SignerAccountResolverInterface $accounts = null,
     ) {
     }
 
@@ -80,8 +82,9 @@ class EnvelopeService
     }
 
     /**
-     * An account of the application, or — without one — someone outside it,
-     * who signs through a signed link.
+     * An account of the application, or — without one, and none found for
+     * the address by the application's SignerAccountResolverInterface —
+     * someone outside it, who signs through a signed link.
      *
      * @throws SignatureException
      */
@@ -96,6 +99,9 @@ class EnvelopeService
         }
 
         $signer = new EnvelopeSigner($envelope, $envelope->getSigners()->count() + 1, $email, $name);
+        // Added by its address alone: its account, where the application
+        // knows one.
+        $account ??= $this->accounts?->findAccount($email);
 
         if ($account) {
             $signer->setAccount(...$this->keys->key($account));

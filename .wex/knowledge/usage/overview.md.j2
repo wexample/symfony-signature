@@ -61,3 +61,7 @@ Every step is told as an `Event\EnvelopeEvent` once flushed — `envelope.sealed
 | `signature_requested` | the signer: an account in its inbox and by mail, an outside one by mail with its signed link |
 | `completed` | the sender and every signer |
 | `declined` | the sender, with the reason |
+
+## Accounts found by their address
+
+A signer added by its address alone signs from outside, unless the application implements `Interface\SignerAccountResolverInterface`: `findAccount($email)` gives the account the address belongs to, and the signer then signs signed in; `describe($account)` gives the address and the name an account signs as.
