@@ -1,0 +1,27 @@
+framework:
+  # symfony-notification sends through Messenger, synchronously here.
+  messenger: ~
+  default_locale: en
+  enabled_locales: [en, fr]
+  mailer:
+    dsn: 'mailbox://default'
+    headers:
+      From: 'App <no-reply@app.test>'
+
+security:
+  providers:
+    accounts:
+      entity:
+        class: Wexample\SymfonySignature\Tests\Fixtures\App\Entity\Account
+        property: email
+  firewalls:
+    main:
+      lazy: true
+      provider: accounts
+
+wexample_symfony_mail:
+  app_name: Fixture App
+
+wexample_symfony_activity:
+  categories:
+    signature: ~

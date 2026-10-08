@@ -1,0 +1,29 @@
+en:
+  group: Signatures
+  requested:
+    label: A document awaits my signature
+    title: "To sign: %title%"
+    body: Your signature is awaited. Open the link to read the documents and sign.
+  completed:
+    label: An envelope I am part of is signed by all
+    title: "Signed by all: %title%"
+    body: Every signer signed. The proof can be downloaded from the envelope.
+  declined:
+    label: A signer declined an envelope I sent
+    title: "Declined: %title%"
+    body: "%signer% declined to sign. %reason%"
+
+fr:
+  group: Signatures
+  requested:
+    label: Un document attend ma signature
+    title: "À signer : %title%"
+    body: Votre signature est attendue. Ouvrez le lien pour lire les documents et signer.
+  completed:
+    label: Une enveloppe dont je fais partie est signée par tous
+    title: "Signée par tous : %title%"
+    body: Tous les signataires ont signé. La preuve se télécharge depuis l'enveloppe.
+  declined:
+    label: Un signataire a refusé une enveloppe que j'ai envoyée
+    title: "Refusée : %title%"
+    body: "%signer% a refusé de signer. %reason%"

@@ -1,0 +1,21 @@
+doctrine:
+  orm:
+    mappings:
+      FixtureApp:
+        type: attribute
+        dir: '%kernel.project_dir%/Entity'
+        prefix: 'Wexample\SymfonySignature\Tests\Fixtures\App\Entity'
+        is_bundle: false
+
+wexample_symfony_media:
+  storage_dir: '%kernel.project_dir%/var/media'
+  thumbnail_sizes: [160]
+
+wexample_symfony_signature:
+  timestamp:
+    url: 'https://tsa.test/tsr'
+
+services:
+  Symfony\Contracts\HttpClient\HttpClientInterface:
+    class: Symfony\Component\HttpClient\MockHttpClient
+    public: true
