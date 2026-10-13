@@ -91,7 +91,8 @@ class TimestampAuthorityClient
         $algorithm = self::der(0x30, self::SHA256_OID . "\x05\x00");
         $imprint = self::der(0x30, $algorithm . self::der(0x04, $hash));
 
-        return self::der(0x30,
+        return self::der(
+            0x30,
             self::der(0x02, "\x01")      // version
             . $imprint
             . self::der(0x02, $nonce)    // nonce
