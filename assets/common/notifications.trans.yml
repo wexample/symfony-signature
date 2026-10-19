@@ -27,3 +27,18 @@ fr:
     label: Un signataire a refusé une enveloppe que j'ai envoyée
     title: "Refusée : %title%"
     body: "%signer% a refusé de signer. %reason%"
+
+zh:
+  group: 签名
+  requested:
+    label: 有一份文件等待我的签名
+    title: '待签名： %title%'
+    body: 您的签名正在等待中。请打开链接阅读文件并签名。
+  completed:
+    label: 我参与的信封已被所有人签名
+    title: '全部签名： %title%'
+    body: 每位签名者都已签名。可以从信封中下载证明。
+  declined:
+    label: 我发送的信封被一位签名者拒绝
+    title: '已拒绝： %title%'
+    body: '%signer% 拒绝签名。 %reason%'
