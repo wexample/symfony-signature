@@ -42,3 +42,303 @@ zh:
     label: 我发送的信封被一位签名者拒绝
     title: '已拒绝： %title%'
     body: '%signer% 拒绝签名。 %reason%'
+
+ar:
+  group: التوقيعات
+  requested:
+    label: 'هناك مستند ينتظر توقيعي'
+    title: 'للتوقيع: %title%'
+    body: 'توقيعك مطلوب. افتح الرابط لقراءة المستندات والتوقيع.'
+  completed:
+    label: 'ظرف أنا جزء منه تم توقيعه من قبل الجميع'
+    title: 'تم التوقيع من قبل الجميع: %title%'
+    body: 'كل موقع قام بالتوقيع. يمكن تنزيل الإثبات من الظرف.'
+  declined:
+    label: 'أحد الموقّعين رفض ظرفًا أرسلته'
+    title: 'تم الرفض: %title%'
+    body: '%signer% رفض التوقيع. %reason%'
+
+hi:
+  group: हस्ताक्षर
+  requested:
+    label: 'एक दस्तावेज़ मेरी हस्ताक्षर की प्रतीक्षा कर रहा है'
+    title: 'हस्ताक्षर करने के लिए: %title%'
+    body: 'आपकी हस्ताक्षर की प्रतीक्षा है। दस्तावेज़ पढ़ने और हस्ताक्षर करने के लिए लिंक खोलें।'
+  completed:
+    label: 'एक लिफाफा जिसका मैं हिस्सा हूँ, सभी द्वारा हस्ताक्षरित है'
+    title: 'सभी द्वारा हस्ताक्षरित: %title%'
+    body: 'हर हस्ताक्षरकर्ता ने हस्ताक्षर किए। प्रमाण लिफाफे से डाउनलोड किया जा सकता है।'
+  declined:
+    label: 'एक हस्ताक्षरकर्ता ने मुझे भेजा हुआ लिफाफा अस्वीकृत किया'
+    title: 'अस्वीकृत: %title%'
+    body: '%signer% ने हस्ताक्षर करने से इनकार कर दिया। %reason%'
+
+he:
+  group: חתימות
+  requested:
+    label: 'מסמך מחכה לחתימתי'
+    title: 'לחתימה: %title%'
+    body: 'החתימה שלך ממתינה. פתח את הקישור כדי לקרוא את המסמכים ולחתום.'
+  completed:
+    label: 'מעטפה שאני חלק ממנה נחתמה על ידי כולם'
+    title: 'נחתם על ידי כולם: %title%'
+    body: 'כל החותמים חתם. הוכחת החתימה ניתנת להורדה מהמעטפה.'
+  declined:
+    label: 'חותם דחה מעטפה ששלחתי'
+    title: 'נדחה: %title%'
+    body: '%signer% דחה את החתימה. %reason%'
+
+fa:
+  group: امضاها
+  requested:
+    label: 'یک سند منتظر امضای من است'
+    title: 'برای امضا: %title%'
+    body: 'امضای شما منتظر است. لینک را باز کنید تا اسناد را بخوانید و امضا کنید.'
+  completed:
+    label: 'یک پاکت که من در آن هستم توسط همه امضا شده است'
+    title: 'امضاشده توسط همه: %title%'
+    body: 'هر امضاکننده امضا کرده است. می‌توانید اثبات را از پاکت دانلود کنید.'
+  declined:
+    label: 'یک امضاکننده پاکتی که من فرستادم را رد کرد'
+    title: 'رد شده: %title%'
+    body: '%signer% از امضا کردن خودداری کرد. %reason%'
+
+ur:
+  group: دستخط
+  requested:
+    label: 'ایک دستاویز میرے دستخط کا منتظر ہے'
+    title: 'دستخط کرنے کے لیے: %title%'
+    body: 'آپ کے دستخط کا انتظار ہے۔ دستاویزات پڑھنے اور دستخط کرنے کے لیے لنک کھولیں۔'
+  completed:
+    label: 'ایک لفافہ جس کا میں حصہ ہوں، سب نے دستخط کر دیا ہے'
+    title: 'سب نے دستخط کیے: %title%'
+    body: 'ہر دستخط کنندہ نے دستخط کیے۔ ثبوت لفافے سے ڈاؤن لوڈ کیا جا سکتا ہے۔'
+  declined:
+    label: 'ایک دستخط کرنے والے نے مجھے بھیجا ہوا لفافہ مسترد کر دیا'
+    title: 'مسترد کیا: %title%'
+    body: '%signer% نے دستخط کرنے سے انکار کر دیا۔ %reason%'
+
+ja:
+  group: サインatures
+  requested:
+    label: 署名待ちの文書があります
+    title: '署名する: %title%'
+    body: あなたの署名をお待ちしています。リンクを開いて文書を確認し、署名してください。
+  completed:
+    label: 私が関与している封筒は全員が署名しました
+    title: '全員が署名済み: %title%'
+    body: すべての署名者が署名しました。証明書は封筒からダウンロードできます。
+  declined:
+    label: 署名者が私が送った封筒を辞退しました
+    title: '辞退: %title%'
+    body: '%signer% が署名を辞退しました。%reason%'
+
+ko:
+  group: 서명
+  requested:
+    label: '서명이 필요한 문서가 있습니다'
+    title: '서명할 문서: %title%'
+    body: '당신의 서명이 필요합니다. 링크를 열어 문서를 읽고 서명하세요.'
+  completed:
+    label: '내가 있는 봉투는 모두 서명되었습니다'
+    title: '모두 서명됨: %title%'
+    body: '모든 서명이 완료되었습니다. 증명서는 봉투에서 다운로드할 수 있습니다.'
+  declined:
+    label: '서명자가 내가 보낸 봉투를 거부했습니다'
+    title: '거부됨: %title%'
+    body: '%signer%이/가 서명하는 것을 거부했습니다. %reason%'
+
+bn:
+  group: স্বাক্ষর
+  requested:
+    label: 'একটি ডকুমেন্ট আমার স্বাক্ষরের অপেক্ষায়'
+    title: 'স্বাক্ষর করার জন্য: %title%'
+    body: 'আপনার স্বাক্ষরের অপেক্ষা করা হচ্ছে। ডকুমেন্টগুলি পড়তে এবং স্বাক্ষর করতে লিঙ্কটি খুলুন।'
+  completed:
+    label: 'যার অংশ আমি, একটি খাম সকলের দ্বারা স্বাক্ষরিত'
+    title: 'সকলের দ্বারা স্বাক্ষরিত: %title%'
+    body: 'প্রত্যেক স্বাক্ষরকারী স্বাক্ষর করেছে। প্রমাণটি খাম থেকে ডাউনলোড করা যাবে।'
+  declined:
+    label: 'একজন স্বাক্ষরকারী একটি খাম প্রত্যাখ্যান করেছেন যা আমি পাঠিয়েছিলাম'
+    title: 'প্রত্যাখ্যাত: %title%'
+    body: '%signer% স্বাক্ষর করতে অস্বীকার করেছেন। %reason%'
+
+th:
+  group: ลายเซ็น
+  requested:
+    label: เอกสารรอการลงชื่อของฉัน
+    title: 'เพื่อเซ็น: %title%'
+    body: 'รอการลงชื่อของคุณ กรุณาเปิดลิงก์เพื่ออ่านเอกสารและลงชื่อ.'
+  completed:
+    label: ซองที่ฉันเป็นส่วนหนึ่งได้รับการลงชื่อจากทุกคน
+    title: 'ลงชื่อโดยทุกคน: %title%'
+    body: 'ผู้ลงชื่อทุกคนได้เซ็นแล้ว สามารถดาวน์โหลดเอกสารยืนยันได้จากซอง.'
+  declined:
+    label: ผู้ลงชื่อปฏิเสธซองที่ฉันส่งไป
+    title: 'ปฏิเสธ: %title%'
+    body: '%signer% ปฏิเสธที่จะลงชื่อ. %reason%'
+
+de:
+  group: Signaturen
+  requested:
+    label: 'Ein Dokument wartet auf meine Unterschrift'
+    title: 'Zu unterschreiben: %title%'
+    body: 'Ihre Unterschrift wird erwartet. Öffnen Sie den Link, um die Dokumente zu lesen und zu unterschreiben.'
+  completed:
+    label: 'Ein Umschlag, an dem ich beteiligt bin, ist von allen unterschrieben'
+    title: 'Von allen unterschrieben: %title%'
+    body: 'Jeder Unterzeichner hat unterschrieben. Der Nachweis kann aus dem Umschlag heruntergeladen werden.'
+  declined:
+    label: 'Ein Unterzeichner hat einen von mir gesendeten Umschlag abgelehnt'
+    title: 'Abgelehnt: %title%'
+    body: '%signer% hat abgelehnt zu unterschreiben. %reason%'
+
+fi:
+  group: Allekirjoitukset
+  requested:
+    label: 'Asiakirja odottaa allekirjoitustani'
+    title: 'Allekirjoitettavana: %title%'
+    body: 'Allekirjoitustasi odotetaan. Avaa linkki lukeaksesi asiakirjat ja allekirjoittaaksesi.'
+  completed:
+    label: 'Kuori, johon kuulun, on allekirjoitettu kaikilta'
+    title: 'Kaikilta allekirjoitettu: %title%'
+    body: 'Jokainen allekirjoittaja on allekirjoittanut. Todistus voidaan ladata kuoresta.'
+  declined:
+    label: 'Allekirjoittaja hylkäsi lähettämäni kuoren'
+    title: 'Hylätty: %title%'
+    body: '%signer% hylkäsi allekirjoittamisen. %reason%'
+
+ru:
+  group: Подписи
+  requested:
+    label: 'Документ ждет моей подписи'
+    title: 'Для подписи: %title%'
+    body: 'Ваша подпись ожидается. Откройте ссылку, чтобы прочитать документы и подписать.'
+  completed:
+    label: 'Конверт, частью которого я являюсь, подписан всеми'
+    title: 'Подписан всеми: %title%'
+    body: 'Каждый подписант подписал. Доказательство можно скачать из конверта.'
+  declined:
+    label: 'Подписант отклонил конверт, который я отправил'
+    title: 'Отклонено: %title%'
+    body: '%signer% отказался подписывать. %reason%'
+
+pl:
+  group: Podpisy
+  requested:
+    label: 'Dokument czeka na mój podpis'
+    title: 'Do podpisania: %title%'
+    body: 'Czekamy na Twój podpis. Otwórz link, aby przeczytać dokumenty i podpisać.'
+  completed:
+    label: 'Koperta, której częścią jestem, została podpisana przez wszystkich'
+    title: 'Podpisana przez wszystkich: %title%'
+    body: 'Wszyscy sygnatariusze podpisali. Dowód można pobrać z koperty.'
+  declined:
+    label: 'Sygnatariusz odrzucił kopertę, którą wysłałem'
+    title: 'Odrzucone: %title%'
+    body: '%signer% odmówił podpisania. %reason%'
+
+es:
+  group: Signatures
+  requested:
+    label: 'Un documento espera mi firma'
+    title: 'Para firmar: %title%'
+    body: 'Se espera tu firma. Abre el enlace para leer los documentos y firmar.'
+  completed:
+    label: 'Un sobre del que soy parte está firmado por todos'
+    title: 'Firmado por todos: %title%'
+    body: 'Todos los firmantes han firmado. La prueba se puede descargar del sobre.'
+  declined:
+    label: 'Un firmante rechazó un sobre que envié'
+    title: 'Rechazado: %title%'
+    body: '%signer% rechazó firmar. %reason%'
+
+it:
+  group: Firme
+  requested:
+    label: 'Un documento attende la mia firma'
+    title: 'Da firmare: %title%'
+    body: 'La tua firma è attesa. Apri il link per leggere i documenti e firmare.'
+  completed:
+    label: "Un'evidenza di cui faccio parte è firmata da tutti"
+    title: 'Firmato da tutti: %title%'
+    body: "Ogni firmatario ha firmato. La prova può essere scaricata dall'evidenza."
+  declined:
+    label: "Un firmatario ha rifiutato un'evidenza che ho inviato"
+    title: 'Rifiutato: %title%'
+    body: '%signer% ha rifiutato di firmare. %reason%'
+
+pt_BR:
+  group: Assinaturas
+  requested:
+    label: 'Um documento aguarda minha assinatura'
+    title: 'Para assinar: %title%'
+    body: 'Sua assinatura é aguardada. Abra o link para ler os documentos e assinar.'
+  completed:
+    label: 'Um envelope do qual faço parte foi assinado por todos'
+    title: 'Assinado por todos: %title%'
+    body: 'Todos os signatários assinaram. A prova pode ser baixada do envelope.'
+  declined:
+    label: 'Um signatário recusou um envelope que enviei'
+    title: 'Recusado: %title%'
+    body: '%signer% recusou assinar. %reason%'
+
+tr:
+  group: İmzalar
+  requested:
+    label: 'Bir belgenin imzamı beklediği'
+    title: 'İmzalamak için: %title%'
+    body: 'İmzanız bekleniyor. Belgeleri okumak ve imzalamak için bağlantıyı açın.'
+  completed:
+    label: 'Parçası olduğum bir zarf herkes tarafından imzalandı'
+    title: 'Herkes tarafından imzalandı: %title%'
+    body: 'Her imzalayan imzaladı. Kanıt zarfın içinden indirilebilir.'
+  declined:
+    label: 'Gönderdiğim bir zarfı bir imzalayan reddetti'
+    title: 'Reddedildi: %title%'
+    body: '%signer% imzalamayı reddetti. %reason%'
+
+vi:
+  group: 'Chữ ký'
+  requested:
+    label: 'Một tài liệu đang chờ chữ ký của tôi'
+    title: 'Để ký: %title%'
+    body: 'Chữ ký của bạn đang được chờ đợi. Mở liên kết để đọc tài liệu và ký.'
+  completed:
+    label: 'Một phong bì mà tôi tham gia đã được tất cả ký'
+    title: 'Đã được tất cả ký: %title%'
+    body: 'Mọi người đã ký. Bằng chứng có thể được tải xuống từ phong bì.'
+  declined:
+    label: 'Một người ký đã từ chối phong bì tôi đã gửi'
+    title: 'Đã từ chối: %title%'
+    body: '%signer% đã từ chối ký. %reason%'
+
+id:
+  group: 'Tanda Tangan'
+  requested:
+    label: 'Sebuah dokumen menunggu tanda tangan saya'
+    title: 'Untuk ditandatangani: %title%'
+    body: 'Tanda tangan Anda ditunggu. Buka tautan untuk membaca dokumen dan menandatangani.'
+  completed:
+    label: 'Sebuah amplop yang saya ikuti telah ditandatangani oleh semua'
+    title: 'Ditandatangani oleh semua: %title%'
+    body: 'Setiap penandatangan telah menandatangani. Bukti dapat diunduh dari amplop.'
+  declined:
+    label: 'Seorang penandatangan menolak amplop yang saya kirim'
+    title: 'Ditolak: %title%'
+    body: '%signer% menolak untuk menandatangani. %reason%'
+
+nl:
+  group: Handtekeningen
+  requested:
+    label: 'Een document wacht op mijn handtekening'
+    title: 'Te ondertekenen: %title%'
+    body: 'Uw handtekening wordt verwacht. Open de link om de documenten te lezen en te ondertekenen.'
+  completed:
+    label: 'Een envelop waar ik deel van uitmaak is door iedereen ondertekend'
+    title: 'Door iedereen ondertekend: %title%'
+    body: 'Iedere ondertekenaar heeft getekend. Het bewijs kan worden gedownload van de envelop.'
+  declined:
+    label: 'Een ondertekenaar heeft een envelop die ik heb verzonden afgewezen'
+    title: 'Afgewezen: %title%'
+    body: '%signer% heeft geweigerd te ondertekenen. %reason%'
