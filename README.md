@@ -1,6 +1,6 @@
 # symfony-signature
 
-Version: 2.0.4
+Version: 2.0.5
 
 ## What it is
 
@@ -106,9 +106,9 @@ The suite includes packages for configuration management, file handling, prompts
 - symfony/http-kernel: ^7.4 || ^8.0
 - symfony/routing: ^7.4 || ^8.0
 - symfony/uid: ^7.4 || ^8.0
-- wexample/symfony-helpers: >=17.0.0
+- wexample/symfony-helpers: >=18.0.0
 - wexample/symfony-mail: >=3.0.0
-- wexample/symfony-media: >=4.0.0
+- wexample/symfony-media: >=5.0.0
 - wexample/symfony-notification: >=2.1.0
 - wexample/symfony-activity: >=3.0.0
 
