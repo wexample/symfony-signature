@@ -1283,6 +1283,15 @@ use Symfony\Component\Config\Loader\ParamConfigurator as Param;
  *         query_parameters?: list<scalar|Param|null>,
  *         patterns?: list<scalar|Param|null>,
  *     },
+ *     rate_limits?: list<array{ // Default: []
+ *         name?: scalar|Param|null, // The count, shared by every request the rule matches.
+ *         limit?: int|Param,
+ *         interval?: scalar|Param|null, // As the rate limiter reads it: "1 minute", "15 minutes", "1 hour".
+ *         scope?: "ip"|"user"|Param, // Default: "ip"
+ *         methods?: list<scalar|Param|null>,
+ *         routes?: scalar|Param|null, // A regular expression the route name must match: "/^api_invoice_(emit|peppol_send)$/". // Default: null
+ *         paths?: scalar|Param|null, // A regular expression the path must match, for what one route serves under many names: "#^/_forms/submit/form-password_reset_request_form$#". // Default: null
+ *     }>,
  *     headers?: array{ // Security headers added to every main response that does not set them already; null leaves one out.
  *         strict_transport_security?: scalar|Param|null, // Sent over HTTPS only. Once a browser has read it, it refuses plain HTTP on the host for max-age seconds. // Default: "max-age=31536000; includeSubDomains"
  *         content_type_options?: scalar|Param|null, // Default: "nosniff"
@@ -1367,6 +1376,7 @@ use Symfony\Component\Config\Loader\ParamConfigurator as Param;
  * @psalm-type WexampleSymfonyMediaConfig = array{
  *     storage_dir?: scalar|Param|null, // Where the files are kept, out of the public directory: every file goes through the access check. // Default: "%kernel.project_dir%/var/media"
  *     thumbnail_sizes?: list<int|Param>,
+ *     upload_max_size?: int|Param, // The largest file the library takes, in bytes; null takes any size. Checked by the server, whatever the browser says. // Default: null
  *     view_role?: scalar|Param|null, // Role needed to browse the library and read its files. // Default: "ROLE_USER"
  *     manage_role?: scalar|Param|null, // Role needed to add, rename, move and delete media and folders. // Default: "ROLE_ADMIN"
  * }
