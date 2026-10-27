@@ -1,6 +1,6 @@
 # symfony-signature
 
-Version: 2.0.7
+Version: 2.0.8
 
 Electronic signature of an envelope — documents of the media library and data, sealed by their fingerprint — by accounts or outside signers, chained, timestamped (RFC 3161) and verifiable
 
